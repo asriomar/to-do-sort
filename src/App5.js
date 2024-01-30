@@ -73,7 +73,7 @@ function App() {
           Task:
         </label>
         <br />
-        <input
+        <textarea
           type="text"
           id="task"
           placeholder="Enter task"
@@ -95,7 +95,7 @@ function App() {
           onChange={(e) =>
             setImportance(Math.max(1, Math.min(10, e.target.value)))
           }
-          className="p-2 border border-gray-300 mr-2"
+          className="p-2 border border-gray-300 mr-2 rounded-lg"
         />
         <br />
         <br />
