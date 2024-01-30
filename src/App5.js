@@ -87,7 +87,7 @@ function App() {
           Importance (1-10):
         </label>
         <br />
-        <textarea
+        <input
           type="number"
           id="importance"
           placeholder="Enter importance"
